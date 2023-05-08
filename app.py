@@ -1,3 +1,9 @@
+"""
+
+Author: Austin (Github: sphinx-austin)
+
+"""
+
 from flask import Flask, render_template, jsonify, request
 import processor
 
@@ -12,7 +18,6 @@ def index():
     return render_template('index.html', **locals())
 
 
-
 @app.route('/chatbot', methods=["GET", "POST"])
 def chatbotResponse():
 
@@ -21,8 +26,7 @@ def chatbotResponse():
 
         response = processor.chatbot_response(the_question)
 
-    return jsonify({"response": response })
-
+    return jsonify({"response": response})
 
 
 if __name__ == '__main__':

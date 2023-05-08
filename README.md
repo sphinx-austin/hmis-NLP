@@ -21,19 +21,13 @@ pip install tensorflow
 pip install flask
 ```
 
-3. Or, you can install all the dependencies from the requirements.txt file as follows:
-
-```
-pip install -r requirements.txt
-```
-
-Run the chatbot.py file to create the model
+3. Run the chatbot.py file to create the model
 
 ```
 python chatbot.py
 ```
 
-Run the APP to create a Flask front end on port 8888 (or any port the app is pointing to)
+4. Run the APP to create a Flask front end on port 8888 (or any port the app is pointing to)
 
 ```
 python app.py

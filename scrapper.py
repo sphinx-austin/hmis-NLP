@@ -30,22 +30,22 @@ for a in ul_scripts_list.find_all('a'):
 
 # Using Selenium and Chromedriver
 
-# create a chromedriver
-driver = webdriver.Chrome('/Users/user/Downloads/chromedriver')
+# # create a chromedriver
+# driver = webdriver.Chrome('/Users/user/Downloads/chromedriver')
 
-# navigate to the page
-driver.get('https://')
+# # navigate to the page
+# driver.get('https://')
 
-# Wait 5 secs
-time.sleep(5)
+# # Wait 5 secs
+# time.sleep(5)
 
-# find all elements with the specified xpath
-elements = driver.find_elements_by_xpath("//span[@class='']")
+# # find all elements with the specified xpath
+# elements = driver.find_elements_by_xpath("//span[@class='']")
 
-# print the text attribute of the elements
-for element in elements:
-    print(element.text)
+# # print the text attribute of the elements
+# for element in elements:
+#     print(element.text)
 
 
-# clsoe browser
-driver.quit()
+# # clsoe browser
+# driver.quit()
